@@ -25,20 +25,22 @@ namespace FiveWordsFiveLetters
             HashSet<string> sentences = new HashSet<string>();
 
             Console.WriteLine("Starting Search");
-            findNext(cleanedLines, new List<string>(), new HashSet<char>(), sentences, "");
+            findNext(cleanedLines, new HashSet<string>(), 0, sentences, "");
             Console.WriteLine("Search Done");
 
             sw.Stop();
 
+            
             foreach (string word in sentences) 
             {
                 Console.WriteLine(word);
             }
+            
             Console.WriteLine("Total count: " + sentences.Count);
             Console.WriteLine("Total time: " + sw.ElapsedMilliseconds);
         }
 
-        static void findNext(List<string> lines, List<string> currentWords, HashSet<char> usedChars, HashSet<string> result, string lastword)
+        static void findNext(List<string> words, HashSet<string> currentWords, int usedChars, HashSet<string> result, string lastword)
         {
             if (currentWords.Count == 5)
             {
@@ -46,32 +48,37 @@ namespace FiveWordsFiveLetters
                 return;
             }
 
-            foreach (string line in lines)
+            /*
+            if (currentWords.Count + (words.Count - currentWords.Count) < 5)
             {
-                if(string.Compare(line, lastword) > 0 && canUseWord(line, usedChars))
+                return;
+            }
+            */
+
+            for (int i = 0; i < words.Count; i++)
+            {
+                string word = words[i];
+                if (string.Compare(word, lastword) > 0 && canUseWord(word, usedChars))
                 {
-                    currentWords.Add(line);
-                    foreach (char c in line) 
+                    currentWords.Add(word);
+                    int newUsedChars = usedChars;
+                    foreach (char c in word)
                     {
-                        usedChars.Add(c);
+                        newUsedChars |= (1 << (c - 'a'));
                     }
 
-                    findNext(lines, currentWords, usedChars, result, line);
-
-                    currentWords.Remove(line);
-                    foreach(char c in line)
-                    {
-                        usedChars.Remove(c);
-                    }
+                    findNext(words, currentWords, newUsedChars, result, word);
+                    currentWords.Remove(word);
                 }
             }
         }
 
-        static bool canUseWord(string word, HashSet<char> usedChars)
+
+        static bool canUseWord(string word, int usedChars)
         {
             foreach (char c in word) 
             {
-                if(usedChars.Contains(c))
+                if ((usedChars & (1 << (c - 'a'))) != 0)
                 {
                     return false;
                 }
