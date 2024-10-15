@@ -5,6 +5,9 @@ namespace FiveWordsFiveLetters
 {
     internal class Program
     {
+        private static List<string> results = new List<string>();
+        private static Dictionary<int, string> wordDictionary = new Dictionary<int, string>();
+        private static List<int> words = new List<int>();
         static void Main(string[] args)
         {
             Stopwatch sw = new Stopwatch();
@@ -12,78 +15,59 @@ namespace FiveWordsFiveLetters
             Console.WriteLine("Starting cleaning");
             string[] lines = File.ReadAllLines(@"C:\\Users\\HFGF\\Documents\\GitHub\\H2\\FiveWordsFiveLetters\\Words.txt");
 
-            List<string> cleanedLines = new List<string>();
 
             foreach (string line in lines)
             {
                 if (line.Length == 5 && line.Distinct().Count() == 5)
                 {
-                    cleanedLines.Add(line);
+                    int bitmask = 0;
+                    foreach (char c in line)
+                    {
+                        bitmask |= 1 << (c - 'a');
+                    }
+                    words.Add(bitmask);
+                    wordDictionary.TryAdd(bitmask, line);
                 }
             }
             Console.WriteLine("Cleaning done");
             HashSet<string> sentences = new HashSet<string>();
 
             Console.WriteLine("Starting Search");
-            findNext(cleanedLines, new HashSet<string>(), 0, sentences, "");
+            findNext(new int[0], 0, 0);
             Console.WriteLine("Search Done");
 
             sw.Stop();
 
             
-            foreach (string word in sentences) 
+            foreach (string word in results) 
             {
                 Console.WriteLine(word);
             }
             
-            Console.WriteLine("Total count: " + sentences.Count);
+            Console.WriteLine("Total count: " + results.Count);
             Console.WriteLine("Total time: " + sw.ElapsedMilliseconds);
         }
 
-        static void findNext(List<string> words, HashSet<string> currentWords, int usedChars, HashSet<string> result, string lastword)
+        static void findNext(int[] mask, int index, int fullmask)
         {
-            if (currentWords.Count == 5)
+            if (mask.Length == 5)
             {
-                result.Add(string.Join(" ", currentWords));
+                string result = string.Empty;
+                foreach (int word in mask)
+                {
+                    result += wordDictionary[word];
+                }
+                results.Add(result);
                 return;
             }
 
-            /*
-            if (currentWords.Count + (words.Count - currentWords.Count) < 5)
+            for (int i = index; i < words.Count(); i++)
             {
-                return;
-            }
-            */
-
-            for (int i = 0; i < words.Count; i++)
-            {
-                string word = words[i];
-                if (string.Compare(word, lastword) > 0 && canUseWord(word, usedChars))
+                if ((fullmask & words[i]) == 0)
                 {
-                    currentWords.Add(word);
-                    int newUsedChars = usedChars;
-                    foreach (char c in word)
-                    {
-                        newUsedChars |= (1 << (c - 'a'));
-                    }
-
-                    findNext(words, currentWords, newUsedChars, result, word);
-                    currentWords.Remove(word);
+                    findNext(mask.Append(words[i]).ToArray(), i+1, (fullmask | words[i]));
                 }
             }
-        }
-
-
-        static bool canUseWord(string word, int usedChars)
-        {
-            foreach (char c in word) 
-            {
-                if ((usedChars & (1 << (c - 'a'))) != 0)
-                {
-                    return false;
-                }
-            }
-            return true;
         }
     }
 }

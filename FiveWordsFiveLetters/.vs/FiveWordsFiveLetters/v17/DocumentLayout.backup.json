@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\HFGF\\Documents\\GitHub\\H2\\FiveWordsFiveLetters\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{63BB42FC-4B86-4F71-8193-A47527D41A7B}|FiveWordsFiveLetters.csproj|c:\\users\\hfgf\\documents\\github\\h2\\fivewordsfiveletters\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63BB42FC-4B86-4F71-8193-A47527D41A7B}|FiveWordsFiveLetters.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{63BB42FC-4B86-4F71-8193-A47527D41A7B}|FiveWordsFiveLetters.csproj|c:\\users\\hfgf\\documents\\github\\h2\\fivewordsfiveletters\\words.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{63BB42FC-4B86-4F71-8193-A47527D41A7B}|FiveWordsFiveLetters.csproj|solutionrelative:words.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63BB42FC-4B86-4F71-8193-A47527D41A7B}|FiveWordsFiveLetters.csproj|c:\\users\\hfgf\\documents\\github\\h2\\fivewordsfiveletters\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63BB42FC-4B86-4F71-8193-A47527D41A7B}|FiveWordsFiveLetters.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,30 +18,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\HFGF\\Documents\\GitHub\\H2\\FiveWordsFiveLetters\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\HFGF\\Documents\\GitHub\\H2\\FiveWordsFiveLetters\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAABsAAABMAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwB0AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-14T07:00:06.983Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Words.txt",
               "DocumentMoniker": "C:\\Users\\HFGF\\Documents\\GitHub\\H2\\FiveWordsFiveLetters\\Words.txt",
               "RelativeDocumentMoniker": "Words.txt",
               "ToolTip": "C:\\Users\\HFGF\\Documents\\GitHub\\H2\\FiveWordsFiveLetters\\Words.txt",
               "RelativeToolTip": "Words.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
               "WhenOpened": "2024-10-14T07:01:01.2Z",
               "EditorCaption": ""
