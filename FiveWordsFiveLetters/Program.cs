@@ -19,11 +19,11 @@ namespace FiveWordsFiveLetters
 
             Stopwatch sw = new Stopwatch();
             Stopwatch ssw = new Stopwatch();
-            sw.Start();
-            ssw.Start();
+
             Console.WriteLine("Starting cleaning");
             string[] lines = File.ReadAllLines(@"C:\\Users\\HFGF\\Documents\\GitHub\\H2\\FiveWordsFiveLetters\\Words.txt");
-
+            sw.Start();
+            ssw.Start();
             foreach (string line in lines)
             {
                 if (line.Length == wordLength)
