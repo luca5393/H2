@@ -78,8 +78,7 @@ namespace FiveWordsFiveLetters
                 return;
 
             }
-
-            if (words.Length - index < wordAmount - count)
+            else if (words.Length - index < wordAmount - count)
             {
                 return;
             }
