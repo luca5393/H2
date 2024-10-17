@@ -1,0 +1,12 @@
+C:\Users\HFGF\Documents\GitHub\H2\FiveWordsFiveLettersLib\bin\Debug\net8.0\FiveWordsFiveLettersLib.deps.json
+C:\Users\HFGF\Documents\GitHub\H2\FiveWordsFiveLettersLib\bin\Debug\net8.0\FiveWordsFiveLettersLib.dll
+C:\Users\HFGF\Documents\GitHub\H2\FiveWordsFiveLettersLib\bin\Debug\net8.0\FiveWordsFiveLettersLib.pdb
+C:\Users\HFGF\Documents\GitHub\H2\FiveWordsFiveLettersLib\obj\Debug\net8.0\FiveWordsFiveLettersLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HFGF\Documents\GitHub\H2\FiveWordsFiveLettersLib\obj\Debug\net8.0\FiveWordsFiveLettersLib.AssemblyInfoInputs.cache
+C:\Users\HFGF\Documents\GitHub\H2\FiveWordsFiveLettersLib\obj\Debug\net8.0\FiveWordsFiveLettersLib.AssemblyInfo.cs
+C:\Users\HFGF\Documents\GitHub\H2\FiveWordsFiveLettersLib\obj\Debug\net8.0\FiveWordsFiveLettersLib.csproj.CoreCompileInputs.cache
+C:\Users\HFGF\Documents\GitHub\H2\FiveWordsFiveLettersLib\obj\Debug\net8.0\FiveWordsFiveLettersLib.sourcelink.json
+C:\Users\HFGF\Documents\GitHub\H2\FiveWordsFiveLettersLib\obj\Debug\net8.0\FiveWordsFiveLettersLib.dll
+C:\Users\HFGF\Documents\GitHub\H2\FiveWordsFiveLettersLib\obj\Debug\net8.0\refint\FiveWordsFiveLettersLib.dll
+C:\Users\HFGF\Documents\GitHub\H2\FiveWordsFiveLettersLib\obj\Debug\net8.0\FiveWordsFiveLettersLib.pdb
+C:\Users\HFGF\Documents\GitHub\H2\FiveWordsFiveLettersLib\obj\Debug\net8.0\ref\FiveWordsFiveLettersLib.dll

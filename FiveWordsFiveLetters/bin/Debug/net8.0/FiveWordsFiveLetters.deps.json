@@ -7,14 +7,30 @@
   "targets": {
     ".NETCoreApp,Version=v8.0": {
       "FiveWordsFiveLetters/1.0.0": {
+        "dependencies": {
+          "FiveWordsFiveLettersLib": "1.0.0"
+        },
         "runtime": {
           "FiveWordsFiveLetters.dll": {}
+        }
+      },
+      "FiveWordsFiveLettersLib/1.0.0": {
+        "runtime": {
+          "FiveWordsFiveLettersLib.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
   },
   "libraries": {
     "FiveWordsFiveLetters/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FiveWordsFiveLettersLib/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
