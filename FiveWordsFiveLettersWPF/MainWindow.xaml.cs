@@ -55,7 +55,7 @@ namespace FiveWordsFiveLettersWPF
             StartButton.IsEnabled = true;
 
             StatusText.Text = $"Total count: {result.Count}{Environment.NewLine}" +
-                $"Time for Search: {sw.ElapsedMilliseconds} ms";
+                $"Time for Search: {sw.ElapsedMilliseconds/1000} Seconds";
             SaveButton.IsEnabled = true;
         }
         private void OnProgressUpdated(int progress, int total)

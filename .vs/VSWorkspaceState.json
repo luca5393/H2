@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\FiveWordsFiveLetters"
+    "\\FiveWordsFiveLetters",
+    "\\FiveWordsFiveLettersWPF"
   ],
-  "SelectedNode": "\\FiveWordsFiveLetters\\Program.cs",
+  "SelectedNode": "\\FiveWordsFiveLettersWPF\\MainWindow.xaml.cs",
   "PreviewInSolutionExplorer": false
 }
