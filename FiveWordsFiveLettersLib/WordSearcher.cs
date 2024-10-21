@@ -73,10 +73,6 @@ namespace FiveWordsFiveLettersLib
                 results.Add(string.Join(" ", currentWords.Select(word => wordDictionary[word])));
                 return;
             }
-            else if (words.Length - index < wordAmount - count)
-            {
-                return;
-            }
 
             Parallel.For(index, words.Length, i =>
             {

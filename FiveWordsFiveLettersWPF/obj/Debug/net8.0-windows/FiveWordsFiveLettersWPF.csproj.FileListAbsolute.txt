@@ -2,7 +2,6 @@ C:\Users\HFGF\Documents\GitHub\H2\FiveWordsFiveLettersWPF\obj\Debug\net8.0-windo
 C:\Users\HFGF\Documents\GitHub\H2\FiveWordsFiveLettersWPF\obj\Debug\net8.0-windows\MainWindow.g.cs
 C:\Users\HFGF\Documents\GitHub\H2\FiveWordsFiveLettersWPF\obj\Debug\net8.0-windows\App.g.cs
 C:\Users\HFGF\Documents\GitHub\H2\FiveWordsFiveLettersWPF\obj\Debug\net8.0-windows\FiveWordsFiveLettersWPF_MarkupCompile.cache
-C:\Users\HFGF\Documents\GitHub\H2\FiveWordsFiveLettersWPF\obj\Debug\net8.0-windows\FiveWordsFiveLettersWPF_MarkupCompile.lref
 C:\Users\HFGF\Documents\GitHub\H2\FiveWordsFiveLettersWPF\bin\Debug\net8.0-windows\FiveWordsFiveLettersWPF.exe
 C:\Users\HFGF\Documents\GitHub\H2\FiveWordsFiveLettersWPF\bin\Debug\net8.0-windows\FiveWordsFiveLettersWPF.deps.json
 C:\Users\HFGF\Documents\GitHub\H2\FiveWordsFiveLettersWPF\bin\Debug\net8.0-windows\FiveWordsFiveLettersWPF.runtimeconfig.json

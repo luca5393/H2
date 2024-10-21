@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FiveWordsFiveLettersWPF")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d08be2095e937271c94f98f25876d7796e3f92a4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+96555a882bc0ef13db5103a2f5c4b49f31683cb4")]
 [assembly: System.Reflection.AssemblyProductAttribute("FiveWordsFiveLettersWPF")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FiveWordsFiveLettersWPF")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
