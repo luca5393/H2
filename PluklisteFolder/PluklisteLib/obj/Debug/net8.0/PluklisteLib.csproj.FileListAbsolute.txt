@@ -1,0 +1,12 @@
+C:\Users\HFGF\Documents\GitHub\Plukliste\PluklisteLib\bin\Debug\net8.0\PluklisteLib.deps.json
+C:\Users\HFGF\Documents\GitHub\Plukliste\PluklisteLib\bin\Debug\net8.0\PluklisteLib.dll
+C:\Users\HFGF\Documents\GitHub\Plukliste\PluklisteLib\bin\Debug\net8.0\PluklisteLib.pdb
+C:\Users\HFGF\Documents\GitHub\Plukliste\PluklisteLib\obj\Debug\net8.0\PluklisteLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HFGF\Documents\GitHub\Plukliste\PluklisteLib\obj\Debug\net8.0\PluklisteLib.AssemblyInfoInputs.cache
+C:\Users\HFGF\Documents\GitHub\Plukliste\PluklisteLib\obj\Debug\net8.0\PluklisteLib.AssemblyInfo.cs
+C:\Users\HFGF\Documents\GitHub\Plukliste\PluklisteLib\obj\Debug\net8.0\PluklisteLib.csproj.CoreCompileInputs.cache
+C:\Users\HFGF\Documents\GitHub\Plukliste\PluklisteLib\obj\Debug\net8.0\PluklisteLib.sourcelink.json
+C:\Users\HFGF\Documents\GitHub\Plukliste\PluklisteLib\obj\Debug\net8.0\PluklisteLib.dll
+C:\Users\HFGF\Documents\GitHub\Plukliste\PluklisteLib\obj\Debug\net8.0\refint\PluklisteLib.dll
+C:\Users\HFGF\Documents\GitHub\Plukliste\PluklisteLib\obj\Debug\net8.0\PluklisteLib.pdb
+C:\Users\HFGF\Documents\GitHub\Plukliste\PluklisteLib\obj\Debug\net8.0\ref\PluklisteLib.dll
