@@ -1,0 +1,159 @@
+{
+  "users": [
+    {
+      "name": "Lucas",
+      "wins": 3,
+      "totalGames": 5
+    },
+    {
+      "name": "Marcus",
+      "wins": 1,
+      "totalGames": 3
+    },
+    {
+      "name": "xD",
+      "wins": 0,
+      "totalGames": 1
+    },
+    {
+      "name": "TANK",
+      "wins": 1,
+      "totalGames": 1
+    },
+    {
+      "name": "wow",
+      "wins": 0,
+      "totalGames": 1
+    },
+    {
+      "name": "aw",
+      "wins": 1,
+      "totalGames": 3
+    },
+    {
+      "name": "asd",
+      "wins": 1,
+      "totalGames": 2
+    },
+    {
+      "name": "ad",
+      "wins": 1,
+      "totalGames": 2
+    },
+    {
+      "name": "321",
+      "wins": 1,
+      "totalGames": 1
+    },
+    {
+      "name": "awda",
+      "wins": 1,
+      "totalGames": 2
+    },
+    {
+      "name": "qw",
+      "wins": 1,
+      "totalGames": 1
+    },
+    {
+      "name": "Tom",
+      "wins": 1,
+      "totalGames": 1
+    },
+    {
+      "name": "Nice",
+      "wins": 0,
+      "totalGames": 1
+    },
+    {
+      "name": "TEST",
+      "wins": 1,
+      "totalGames": 1
+    },
+    {
+      "name": "tesw",
+      "wins": 0,
+      "totalGames": 1
+    }
+  ],
+  "matches": [
+    {
+      "player1": "Lucas",
+      "player2": "Marcus",
+      "score1": 3,
+      "score2": 1
+    },
+    {
+      "player1": "Lucas",
+      "player2": "Marcus",
+      "score1": 1,
+      "score2": 3
+    },
+    {
+      "player1": "Lucas",
+      "player2": "xD",
+      "score1": 3,
+      "score2": 1
+    },
+    {
+      "player1": "TANK",
+      "player2": "wow",
+      "score1": 3,
+      "score2": 2
+    },
+    {
+      "player1": "aw",
+      "player2": "asd",
+      "score1": 3,
+      "score2": 1
+    },
+    {
+      "player1": "Lucas",
+      "player2": "ad",
+      "score1": 1,
+      "score2": 3
+    },
+    {
+      "player1": "ad",
+      "player2": "asd",
+      "score1": 1,
+      "score2": 2
+    },
+    {
+      "player1": "aw",
+      "player2": "321",
+      "score1": 1,
+      "score2": 3
+    },
+    {
+      "player1": "awda",
+      "player2": "awda",
+      "score1": 123,
+      "score2": 12
+    },
+    {
+      "player1": "qw",
+      "player2": "aw",
+      "score1": 12,
+      "score2": 1
+    },
+    {
+      "player1": "Lucas",
+      "player2": "Marcus",
+      "score1": 3,
+      "score2": 1
+    },
+    {
+      "player1": "Tom",
+      "player2": "Nice",
+      "score1": 3,
+      "score2": 2
+    },
+    {
+      "player1": "TEST",
+      "player2": "tesw",
+      "score1": 3,
+      "score2": 1
+    }
+  ]
+}
